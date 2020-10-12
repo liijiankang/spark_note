@@ -14,10 +14,9 @@ object PrintDemon {
     var str2 = "scala"
     println(str1 + str2)
     var age = 10
-    var sal:Float = 10.8f
-    var weight:Double = 10.09d
-    printf("年龄：%s 薪资：%s 体重：%s",age,sal,weight)
+    var sal: Float = 10.8f
+    var weight: Double = 10.09d
+    printf("年龄：%s 薪资：%s 体重：%s", age, sal, weight)
     println(s"信息:\n 年龄：$age 薪资：$sal 体重：$weight")
   }
-
 }
